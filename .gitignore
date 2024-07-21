@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Python specific
+*.pyc
+__pycache__/
+instance/
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Flask specific
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
